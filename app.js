@@ -9,6 +9,5 @@ let nameTwo = "c"
 var blah = 50;
 
 
-let name = "b"
 
 
