@@ -1,10 +1,18 @@
 var mice = document.getElementById("mice");
 var bee = document.getElementById("bee");
 var spider = document.getElementById("spider");
+<<<<<<< HEAD
 var miceQuote = document.getElementById("button1").addEventListener("click", function miceRemoval() {
     return mice.value * 450;
 });
 
+=======
+
+var miceQuote = document.getElementById("button1").addEventListener("click", function miceRemoval() {
+    return mice.value * 450;
+});
+
+>>>>>>> javascript
 var beeQuote = document.getElementById("button1").addEventListener("click", function beeRemoval() {
     return bee.value * 525;
 });
