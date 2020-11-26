@@ -1,7 +1,6 @@
 var mice = document.getElementById("mice");
 var bee = document.getElementById("bee");
 var spider = document.getElementById("spider");
-
 var miceQuote = document.getElementById("button1").addEventListener("click", function miceRemoval() {
     return mice.value * 450;
 });
