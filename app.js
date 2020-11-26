@@ -4,11 +4,7 @@ var spider = document.getElementById("spider");
 var miceQuote = document.getElementById("button1").addEventListener("click", function miceRemoval() {
     return mice.value * 450;
 });
-<<<<<<< HEAD
 var beeQuote = document.getElementById("button2").addEventListener("click", function beeRemoval() {
-=======
-var beeQuote = document.getElementById("button1").addEventListener("click", function beeRemoval() {
->>>>>>> af5341cba1062f1063c6fcd97e735f58c8f84ab3
     return bee.value * 525;
 });
 var spiderQuote = document.getElementById("button3").addEventListener("click", function spiderRemoval() {
