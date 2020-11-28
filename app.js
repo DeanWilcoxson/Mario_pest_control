@@ -24,3 +24,4 @@ function mice() {
     var x = +g + +h + +z;
     document.getElementById("amountDue").value = x;
   }
+
