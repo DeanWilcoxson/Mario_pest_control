@@ -1,4 +1,423 @@
-html, body {
+html,
+body {
     margin: 0px;
     padding: 0px;
+}
+
+header {
+    position: relative;
+    display: flex;
+    border: 5px rgb(34, 34, 56);
+    margin: 1px;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 56);
+    color: khaki;
+}
+
+#project {
+    position: relative;
+    display: flex;
+    border: 5px solid tomato;
+    margin: 1px;
+    padding: 5px;
+    background-color: tomato;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#total {
+    position: relative;
+    display: flex;
+    border: 5px solid khaki;
+    margin: 0px;
+    padding: 1px;
+    background-color: khaki;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    position: relative;
+    display: flex;
+    border: 1px solid rgb(152, 152, 168);
+    margin: 1px;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: stretch;
+    background-color: rgb(34, 34, 56);
+    color: khaki;
+}
+
+
+/* Tablet Version */
+
+@media only screen and (min-width: 490px) {
+    header {
+        position: relative;
+        display: flex;
+        border: rgb(34, 34, 56);
+        margin: 0px;
+        padding: 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(34, 34, 56);
+        color: khaki;
+        grid-row: 1 / 2;
+        grid-column: 1 / 6;
+    }
+    #project {
+        display: flex;
+        border: 5px solid tomato;
+        margin: 0px;
+        padding: 5px;
+        background-color: tomato;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #total {
+        display: flex;
+        border: 1px solid khaki;
+        margin: 0px;
+        padding: 1px;
+        background-color: khaki;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer {
+        position: relative;
+        display: flex;
+        border: 1px solid rgb(34, 34, 56);
+        margin: 1px;
+        padding: 5px;
+        font-size: smaller;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: stretch;
+        border: rgb(34, 34, 56);
+    }
+    #site {
+        position: relative;
+        right: 10px;
+    }
+    .mices {
+        position: relative;
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-around;
+    }
+    /* mice */
+    #mice {
+        position: relative;
+        height: 20px;
+        margin: 5px;
+        left: 200px;
+        bottom: 189px;
+    }
+    #button1 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 27px;
+        left: 390px;
+        bottom: 220px;
+    }
+    #pic1 {
+        position: relative;
+        margin: 10px;
+        right: 120px;
+        top: 20px;
+    }
+    .mices:nth-child(1) {
+        position: relative;
+        right: 50px;
+    }
+    #mice-price {
+        position: relative;
+        width: 150px;
+        left: 250px;
+        top: -210px;
+    }
+    /* bees */
+    .bees {
+        position: relative;
+        display: inline-block;
+        flex-direction: row;
+        justify-items: flex-start;
+        align-items: center;
+    }
+    #bee {
+        position: relative;
+        height: 20px;
+        margin: 5px;
+        left: 180px;
+        bottom: 189px;
+    }
+    #button2 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 27px;
+        left: 370px;
+        bottom: 220px;
+    }
+    #pic2 {
+        position: relative;
+        right: 150px;
+        top: 20px;
+    }
+    .bee:nth-child(1) {
+        position: relative;
+        right: 50px;
+    }
+    #bee-price {
+        position: relative;
+        width: 150px;
+        left: 250px;
+        top: -210px;
+    }
+    /* spiders */
+    .spiders {
+        position: relative;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-around;
+    }
+    #spider {
+        position: relative;
+        height: 20px;
+        margin: 5px;
+        left: 180px;
+        bottom: 189px;
+    }
+    #button3 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 27px;
+        left: 370px;
+        bottom: 220px;
+    }
+    #pic3 {
+        position: relative;
+        right: 150px;
+        top: 20px;
+    }
+    .spiders:nth-child(1) {
+        position: relative;
+        right: 50px;
+    }
+    #spiders-price {
+        position: relative;
+        width: 150px;
+        left: 250px;
+        top: -210px;
+    }
+}
+
+@media only screen and (min-width: 747px) {
+    #footer {
+        position: relative;
+        display: flex;
+        border: 1px solid rgb(34, 34, 56);
+        margin: 1px;
+        padding: 5px;
+        font-size: small;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: stretch;
+        border: rgb(34, 34, 56);
+    }
+    #site {
+        position: relative;
+        left: 4px;
+    }
+}
+
+@media only screen and (min-width: 764px) {
+    header {
+        position: relative;
+        display: flex;
+        border: 5px rgb(34, 34, 56);
+        margin: 1px;
+        padding: 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(34, 34, 56);
+        color: khaki;
+    }
+    #project {
+        position: relative;
+        display: flex;
+        border: 5px solid tomato;
+        margin: 1px;
+        padding: 5px;
+        background-color: tomato;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #total {
+        position: relative;
+        display: flex;
+        border: 5px solid khaki;
+        margin: 0px;
+        padding: 1px;
+        background-color: khaki;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footer {
+        position: relative;
+        display: flex;
+        border: 1px solid rgb(152, 152, 168);
+        margin: 1px;
+        padding: 5px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: stretch;
+        background-color: rgb(34, 34, 56);
+        color: khaki;
+    }
+    .mices {
+        position: relative;
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+        flex-direction: column;
+    }
+    /* mice */
+    #mice {
+        position: relative;
+        height: 20px;
+        margin: 5px;
+        left: -50px;
+        bottom: -25px;
+    }
+    #button1 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 27px;
+        left: 145px;
+        bottom: 6px;
+    }
+    #pic1 {
+        position: relative;
+        margin: 10px;
+        right: 120px;
+        top: 20px;
+    }
+    .mices:nth-child(1) {
+        position: relative;
+        right: 50px;
+    }
+    #mice-price {
+        position: relative;
+        width: 150px;
+        left: -10px;
+        top: 30px;
+    }
+    /* bees */
+    .bees {
+        position: relative;
+        display: inline-block;
+        flex-direction: row;
+        justify-items: flex-start;
+        align-items: center;
+    }
+    #bee {
+        position: relative;
+        height: 20px;
+        margin: 5px;
+        left: -50px;
+        bottom: -25px;
+    }
+    #button2 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 27px;
+        left: 145px;
+        bottom: 6px;
+    }
+    #pic2 {
+        position: relative;
+        right: 150px;
+        top: 20px;
+    }
+    .bee:nth-child(1) {
+        position: relative;
+        right: 50px;
+    }
+    #bee-price {
+        position: relative;
+        width: 150px;
+        left: -35px;
+        top: 30px;
+    }
+    /* spiders */
+    .spiders {
+        position: relative;
+        display: inline-block;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-around;
+    }
+    #spider {
+        position: relative;
+        height: 20px;
+        margin: 5px;
+        left: -50px;
+        bottom: -25px;
+    }
+    #button3 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 27px;
+        left: 145px;
+        bottom: 6px;
+    }
+    #pic3 {
+        position: relative;
+        right: 150px;
+        top: 20px;
+    }
+    .spiders:nth-child(1) {
+        position: relative;
+        right: 50px;
+    }
+    #spiders-price {
+        position: relative;
+        width: 150px;
+        left: -55px;
+        top: 30px;
+    }
 }
