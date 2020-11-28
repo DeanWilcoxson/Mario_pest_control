@@ -4,6 +4,7 @@ body {
     padding: 0px;
 }
 
+/* Mobile Version */
 header {
     position: relative;
     display: flex;
@@ -252,6 +253,8 @@ header {
     }
 }
 
+
+/* PC Version */
 @media only screen and (min-width: 764px) {
     header {
         position: relative;
